@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stain Sukwambe | Front-End Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Stain<span>.</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section - FIXED -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content fade-in">
+                <h1>Create, Code <br><span>Captivate</span></h1>
+                <p>I'm Stain Sukwambe, a freelance front-end developer specializing in crafting modern, responsive websites with cutting-edge technologies.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-img fade-in">
+                <div class="hero-img-content">
+                    Front-End Developer
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>I turn caffeine into code and ideas into experiences.</h3>
+                    <p>With over 5 years of experience in front-end development, I specialize in creating modern, responsive websites and applications that deliver exceptional user experiences.</p>
+                    <p>My approach combines technical expertise with a keen eye for design, ensuring that every project I work on not only functions flawlessly but also looks stunning across all devices.</p>
+                    <p>I'm passionate about staying on the cutting edge of web technologies and continuously refining my skills to deliver innovative solutions.</p>
+                    
+                    <div class="skills">
+                        <div class="skill">HTML5</div>
+                        <div class="skill">CSS3/SASS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">React.js</div>
+                        <div class="skill">Vue.js</div>
+                        <div class="skill">Responsive Design</div>
+                        <div class="skill">UI/UX Design</div>
+                        <div class="skill">Web Animation</div>
+                        <div class="skill">Git & GitHub</div>
+                    </div>
+                </div>
+                <div class="about-img fade-in">
+                    <div class="about-img-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #6a11cb, #2575fc);">
+                        <h3>E-Commerce Platform</h3>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Modern E-Commerce Experience</h3>
+                        <p>A fully responsive e-commerce platform with cart functionality, user authentication, and payment integration.</p>
+                        <div class="portfolio-tags">
+                            <div class="tag">React</div>
+                            <div class="tag">Redux</div>
+                            <div class="tag">Stripe API</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #ff416c, #ff4b2b);">
+                        <h3>Travel App UI</h3>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Travel Discovery App</h3>
+                        <p>Interactive travel app with destination search, booking functionality, and personalized recommendations.</p>
+                        <div class="portfolio-tags">
+                            <div class="tag">Vue.js</div>
+                            <div class="tag">Vuex</div>
+                            <div class="tag">Mapbox</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
+                        <h3>Finance Dashboard</h3>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Financial Analytics Dashboard</h3>
+                        <p>Real-time financial dashboard with data visualization, reporting tools, and interactive charts.</p>
+                        <div class="portfolio-tags">
+                            <div class="tag">React</div>
+                            <div class="tag">D3.js</div>
+                            <div class="tag">Chart.js</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <h3>Let's work together</h3>
+                    <p>Have a project in mind? I'm available for freelance work and would love to hear about your project.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:sukwambestain@gmail.com">sukwambestain@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Zomba, Malawi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <a href="tel:+11234567890">+265 988 767-472</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/stain-glitch/" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/stain-sukwambe/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/stain_sukwambe" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://dribbble.com/stain_sukwambe" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form fade-in">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Stain<span>.</span></div>
+                <p>© 2025 Stain Sukwambe. All rights reserved.</p>
+                <p>To Infinity and Beyond!</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
