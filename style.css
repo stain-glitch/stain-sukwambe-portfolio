@@ -340,7 +340,9 @@
             gap: 30px;
             margin-top: 50px;
         }
-        
+        .portfolio-content a {
+                text-decoration: none;
+        }
         .portfolio-item {
             background: var(--card);
             border-radius: 10px;
